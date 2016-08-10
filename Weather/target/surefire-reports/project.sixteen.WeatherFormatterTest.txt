@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: project.sixteen.WeatherFormatterTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.201 sec <<< FAILURE!
+testFormat(project.sixteen.WeatherFormatterTest)  Time elapsed: 1.19 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<...New York, NY, US
+Temperature: 39
+Condition: Fair
+Humidity: 67
+Wind Chill: 39...> but was:<..., , 
+Temperature: 
+Condition: 
+Humidity: 
+Wind Chill: ...>
+	at junit.framework.Assert.assertEquals(Assert.java:81)
+	at junit.framework.Assert.assertEquals(Assert.java:87)
+	at project.sixteen.WeatherFormatterTest.testFormat(WeatherFormatterTest.java:21)
+
